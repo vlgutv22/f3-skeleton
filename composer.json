@@ -1,0 +1,9 @@
+{
+	"name": "Spark/f3-skeleton",
+	"description": "Skeleton for F3 based PHP projects",
+	"require": {
+		"bcosca/fatfree-core": "dev-master",
+		"phpdocumentor/phpdocumentor": "2.*",
+		"maximebf/debugbar": "^1.11"
+	}
+}
