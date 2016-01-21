@@ -13,4 +13,12 @@ Project tries to obey best practices of modern PHP web development:
 
 # Installation
 
+Installing is simple and really straight forward:
+
+- run "composer update"
+- Configure application settings in config.ini
+
 # Contributing
+
+It's a small project, but if you want to contribute please do by submitting pull
+requests and reporting issues :)
