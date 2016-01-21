@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<head>
+    <link href="{{@BASE}}/style/style.css" type="text/css" rel="stylesheet" />
+    <title>{{@page.title}}</title>
+    <include href="include/google-analytics.html" />
+    <check if="{{ @DEBUG>0 }}">{{@debugbar->renderHead()}}</check>
+</head>
+<body>
