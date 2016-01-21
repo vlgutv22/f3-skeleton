@@ -1,7 +1,7 @@
 # About
 
-Skeleton for F3 based PHP projects. Goal of the project is to provide sane defaults
-for PHP projects.
+Skeleton for F3 based PHP projects. Goal of the project is to provide sane
+defaults for PHP projects.
 
 # Features
 
@@ -13,10 +13,12 @@ Project tries to obey best practices of modern PHP web development:
 
 # Installation
 
-Installing is simple and really straight forward:
+Installing is simple and really straight forward (all commands should be 
+performed in project's root directory):
 
 - run "composer update"
 - Configure application settings in config.ini
+- run "cp -rpv vendor/maximebf/ public/vendor/" to get phpdebugbar working
 
 # Contributing
 
