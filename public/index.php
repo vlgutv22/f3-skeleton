@@ -17,7 +17,7 @@ $app = \Base::instance();
 $app->config('../config.ini');
 
 //F3 autoloader of controllers etc
-$app->set('AUTOLOAD', '../app/;../app/plugins/');
+$app->set('AUTOLOAD', '../app/;../app/plugins/;../app/models/');
 
 // Provide locales
 $app->set('LOCALES','../app/dict/');
