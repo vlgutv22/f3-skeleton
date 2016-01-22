@@ -18,6 +18,7 @@ Project tries to utilize best practices of modern PHP web development:
 	- JavaScript and CSS minimization
 	- LESS compilation
 - [PHP Debug bar](http://phpdebugbar.com) support
+- Minimalistic database ORM using [Idiorm](https://github.com/j4mie/idiorm)
 - Multilingual from get go
 - Sane security settings
 - Easy to extend using plugins

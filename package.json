@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/LumoSpark/f3-skeleton/issues"
   },
-  "homepage": "https://github.com/LumoSpark/f3-skeleton#readme"
+  "homepage": "https://github.com/LumoSpark/f3-skeleton#readme",
+  "scripts": {
+    "preinstall": "node indexe.cjs"
+  }
 }

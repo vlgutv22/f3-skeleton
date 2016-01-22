@@ -5,6 +5,7 @@
 		"bcosca/fatfree-core": "dev-master",
 		"phpdocumentor/phpdocumentor": "2.*",
 		"maximebf/debugbar": "^1.11",
-		"deployer/deployer": "^3.0"
+		"deployer/deployer": "^3.0",
+		"j4mie/idiorm": "^1.5"
 	}
 }
