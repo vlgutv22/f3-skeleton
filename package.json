@@ -1,0 +1,22 @@
+{
+  "name": "f3-skeleton",
+  "version": "0.0.1",
+  "description": "Skeleton for F3 based PHP projects",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "jquery": "^2.2.0"
+  },
+  "author": "Artem Daniliants",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LumoSpark/f3-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LumoSpark/f3-skeleton/issues"
+  },
+  "homepage": "https://github.com/LumoSpark/f3-skeleton#readme"
+}

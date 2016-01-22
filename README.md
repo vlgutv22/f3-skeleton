@@ -20,6 +20,7 @@ performed in project's root directory):
 - Configure application settings in config.ini
 - run "cp -rpv vendor/maximebf/ public/vendor/" to get phpdebugbar working
 - Make sure tmp folder is writable by httpd user
+- Run "npm install" to get all the npm based dependencies installed
 
 # Contributing
 
