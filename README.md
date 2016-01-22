@@ -57,15 +57,15 @@ Project tries to obey best practices of modern PHP web development:
 Installing is simple and really straight forward (all commands should be 
 performed in project's root directory):
 
-- run "composer update" to install all needed PHP dependencies
+- run "`composer update`" to install all needed PHP dependencies
 - Configure application settings in config.ini
-- run "cp -rpv vendor/maximebf/ public/vendor/" to get phpdebugbar working
+- run "`cp -rpv vendor/maximebf/ public/vendor/`" to get phpdebugbar working
 - Make sure tmp and tmp/cache folders is writable by httpd user
-- Run "npm install" to get all the npm based dependencies installed
-- Run "grunt watch" during development (autocompiling js and css)
-- Run "grunt" before deployment to optimize images and other time consuming tasks not ran by "grunt watch"
+- Run "`npm install`" to get all the npm based dependencies installed
+- Run "`grunt watch`" during development (autocompiling js and css)
+- Run "`grunt`" before deployment to optimize images and other time consuming tasks not ran by "`grunt watch`"
 - Edit deployment script
-- Deploy using "./vendor/bin/dep deploy"
+- Deploy using "`./vendor/bin/dep deploy`"
 
 # Contributing
 
