@@ -11,6 +11,11 @@ Project tries to obey best practices of modern PHP web development:
 - Utilizing composer for dependencies
 - Support for generating documentation using phpdoc
 
+# Project structure
+
+
+
+
 # Installation
 
 Installing is simple and really straight forward (all commands should be 
@@ -21,6 +26,8 @@ performed in project's root directory):
 - run "cp -rpv vendor/maximebf/ public/vendor/" to get phpdebugbar working
 - Make sure tmp folder is writable by httpd user
 - Run "npm install" to get all the npm based dependencies installed
+- Run "grunt watch" during development (autocompiling js and css)
+- Run "grunt" before deployment to optimize images and other time consuming tasks not ran by "grunt watch"
 
 # Contributing
 
