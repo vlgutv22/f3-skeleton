@@ -5,7 +5,7 @@ defaults for PHP projects.
 
 # Features
 
-Project tries to obey best practices of modern PHP web development:
+Project tries to utilize best practices of modern PHP web development:
 
 - Based on excellent [Fat Free Framework](http://fatfreeframework.com/home)
 	- Caching, templating, routing and other goodies courtesy of Fat Free Framework
