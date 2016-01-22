@@ -1,21 +1,30 @@
 module.exports = function(grunt) {
   require('jit-grunt')(grunt);
 
-  grunt.registerTask('default', ['browserify', 'uglify', 'less', 'imagemin']);
+  grunt.registerTask('default', ['js', 'css', 'deploy']);
   grunt.registerTask('js', ['browserify', 'uglify']);
   grunt.registerTask('css', ['less']);
+  grunt.registerTask('deploy', ['exec', 'clean']);
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    clean: {
+      cache: ["tmp/*.php", "tmp/cache/*", "!tmp/cache/.gitignore"]
+    },
+    exec: {
+        composer_optimize: {
+            cmd: 'composer dump-autoload --optimize'
+        }
+    },
     imagemin: {
-    dynamic: {
+      dynamic: {
         files: [{
             expand: true,
             cwd: 'public/images/source/',
             src: ['**/*.{png,jpg,gif}'],
             dest: 'public/images/'
         }]
-    }
+      }
     },
     less: {
       production: {
